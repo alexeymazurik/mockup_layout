@@ -100,6 +100,7 @@ header, footer {
     font-family: Orator, sans-serif;
     font-size: 25px;
     color: white;
+    outline: none;
     border: 3px solid white;
     border-radius: 10px;
     background: none;
@@ -385,4 +386,86 @@ header, footer {
     color: #56d5ff;
     padding-top: 20px;
     vertical-align: middle;
+}
+
+#feedback {
+    background: #56d5ff;
+    text-align: center;
+}
+
+#feedback h2 {
+    font-size: 2.5em;
+    margin-top: 0;
+    text-align: left;
+}
+
+#feedback .title {
+    background:  #0079C5;;
+}
+
+#feedback label {
+    font-size: 1.5em;
+}
+
+
+#feedback-form table {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#feedback-form table tr td{
+    padding: 5px;
+}
+
+.feed-form {
+    padding: 10px;
+}
+
+.customized-input {
+    background: #fff;
+    width: 300px;
+    height: 50px;
+    font-family: Orator, sans-serif;
+    font-size: 1.4em;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    border: 2px solid #49d1ff;
+}
+
+.first-col {
+    text-align: right;
+}
+
+.second-col {
+    text-align: left;
+}
+
+#message {
+    width: 300px;
+    line-height: 30px;
+    font-family: Orator, sans-serif;
+    font-size: 1.4em;
+    padding: 5px;
+    background: #fff;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+.valid {
+    border: 2px solid green;
+}
+
+.invalid {
+    border: 2px solid red;
+}
+
+.invalid:hover {
+    content: "LALALA";
+}
+
+.form-group {
+    margin: 10px;
 }

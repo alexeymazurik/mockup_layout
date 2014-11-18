@@ -129,9 +129,61 @@
             </div>
     </section>
 
+    <section id="feedback">
+        <div class="my_projects">
+            <div class="projects_title">
+                <h2>Feedback</h2>
+            </div>
+        </div>
+        <div class="feed-form">
+            <form id="feedback-form">
+                <table>
+                    <tr class="form-group">
+                        <td class="first-col"><label for="full-name">Full name* :</label></td>
+                        <td class="second-col"><input type="text" class="customized-input" id="full-name"></td>
+                    </tr>
+                    <tr class="form-group">
+                        <td class="first-col"><label for="e-mail">Email* :</label></td>
+                        <td class="second-col"><input type="text" class="customized-input" id="e-mail"></td>
+                    </tr>
+                    <tr class="form-group">
+                        <td class="first-col"><label>Choose your sex:</label></td>
+                        <td class="second-col">
+                            <div>
+                                <input type="radio" name="sex" id="any" value="any" checked="">
+                                <label for="any">Any</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="sex" id="male" value="male">
+                                <label for="male">Male</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="sex" id="female" value="female">
+                                <label for="female">Female</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="form-group">
+                        <td class="first-col"><label for="news">Want to receive latest news?</label></td>
+                        <td class="second-col"><input type="checkbox" value="sendSpam" id="news" checked></td>
+                    </tr>
+                    <tr class="form-group">
+                        <td class="first-col"><label for="message">Message* :</label></td>
+                        <td class="second-col"><textarea id="message" rows="3" ></textarea></td>
+                    </tr>
+                </table>
+                <button class="ghost-button" type="submit">Something</button>
+            </form>
+        </div>
+    </section>
+
     <footer id="footer">
         © Aleksey Mazurik. 2014. All rights reserved.
     </footer>
 
+
+
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
